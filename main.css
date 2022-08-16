@@ -1,0 +1,120 @@
+/* begin of signin section */
+.signin{
+    max-width:400px;
+    margin: 200px auto;
+    border:1px solid rgba(199, 199, 199, 0.527);
+    padding: 0 30px;
+    margin-bottom: 1%;
+    padding-bottom: 2%;
+}
+.email h1{
+    font-size: 33px;
+    font-family: Helvetica;
+    font-weight: 100;
+    
+}
+.email p{
+    font-size: 13px;
+    font-family: Helvetica;
+    margin-bottom:5px;
+}
+input{
+    box-sizing: border-box; width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.password{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.password p,
+.password a{
+    margin-top: 30px;
+    margin-bottom:5px;
+    font-family: Helvetica;
+    text-decoration: none;
+}
+.password p{
+    font-size: 13px;
+    font-weight: 200;
+}
+.password a{
+    font-size: 15px;
+    color:rgb(52, 141, 214)
+}
+
+.con{
+    margin-top: 6%;
+    margin-bottom:5%;
+    width: 100%;
+    height:35px;
+    background-color: rgb(252, 205, 78);
+    border:1px solid rgba(0, 0, 0, 0.281)
+}
+.help{
+    font-size: 15px;
+    color:rgb(52, 141, 214);
+}
+/* End of signin section */
+
+/* Start of mid section */
+
+.mid{
+    max-width:400px;
+    margin: 20px auto;
+}
+.new h2{
+    width:100%; 
+    text-align: center; 
+    border-bottom: 1px solid rgba(49, 49, 49, 0.705); 
+    line-height: 0.1em;
+    margin: 1% 0;
+}
+
+h2 span { 
+    background:#fff; 
+    padding:0 10px; 
+    font-family: Helvetica;
+    font-weight: lighter;
+    color:rgba(49, 49, 49, 0.705); 
+    font-size:16px;
+}
+.create{
+    margin-top: 6%;
+    margin-bottom:5%;
+    width: 100%;
+    height:35px;
+    background-color: rgb(231, 231, 231);
+    border:1px solid rgba(0, 0, 0, 0.281)
+}
+/* End of mid section */
+
+/* Start of footer section */
+
+.footer{
+    max-width:300px;
+    margin: 45px auto;
+    padding: 0 30px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.info a{
+    font-size: 15px;
+    color:rgb(52, 141, 214);
+    text-decoration: none;
+    margin-bottom: 4%;
+}
+.footer h2{
+    font-size: 14px;
+    color:black;
+    font-family: Helvetica;
+    font-weight: lighter;
+}
+/* End of footer section */
